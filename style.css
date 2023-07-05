@@ -1,0 +1,57 @@
+body, html {
+    height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+nav{
+     background-color:none;
+     font-size: 25px;
+     display:flex;
+}
+
+nav a{
+     text-decoration: none;
+
+}
+
+nav ul{
+     list-style-type: none;
+}
+
+.logo{
+     font-size:30px;
+}
+
+
+
+.bg-img {
+    /* The image used */
+    background-image: url("ceeep.jpg");
+    background-size: cover;
+
+    /* Control the height of the image */
+    min-height: 900px;
+
+
+    /* Center and scale the image nicely */
+    width: 232%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Add styles to the form logo */
+.logo {
+    position: absolute;
+    right: 0;
+    margin: 50px;
+    max-width: 400px;
+    padding: 20px;
+    background-color: azure;
+    border: solid 5px black;
+
+}
+
+}
